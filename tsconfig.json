@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "es6",
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
